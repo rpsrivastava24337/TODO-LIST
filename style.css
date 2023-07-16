@@ -1,8 +1,12 @@
 /* Include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
+    
 }
+body{
+    background: #0588b4;
 
+}
 /* Remove margins and padding from the list */
 ul {
     margin: 0;
@@ -65,13 +69,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-    background-color: #f44336;
+    background-color: #b77a7a;
     color: white;
 }
 
 /* Style the header */
 .header {
-    background-color: #f44336;
+    background-color: #056797;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -99,8 +103,8 @@ input {
 .addBtn {
     padding: 10px;
     width: 25%;
-    background: #d9d9d9;
-    color: #555;
+    background: #adf23f;
+    color: #038126;
     float: left;
     text-align: center;
     font-size: 16px;
@@ -110,5 +114,6 @@ input {
 }
 
 .addBtn:hover {
-    background-color: #bbb;
+    background-color: #36aa00;
+    color: #adf23f;
 }
